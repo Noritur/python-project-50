@@ -4,6 +4,13 @@ version = "0.1.0"
 description = "Compares two cofiguration files and shows a difference."
 authors = ["Nikola <hevemahtalaran@gmail.com>"]
 readme = "README.md"
+packages = [
+  { include = "gendiff" },
+]
+
+[tool.poetry.scripts]
+gendiff = "gendiff.scripts.gendiff:main"
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
