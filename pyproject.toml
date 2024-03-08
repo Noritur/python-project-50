@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Compares two cofiguration files and shows a difference."
+authors = ["Nikola <hevemahtalaran@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
